@@ -245,6 +245,15 @@ img {
   display: none;
 }
 
+.qaSection{
+  margin-top: 50px;
+  margin-left: 5%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
 @media only screen and (max-width: 992px) {
   #posts {
     grid-template-columns: repeat(2, 1fr);
